@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let n = parseInt(prompt("Enter a number:"));
+
+if (n % 2 == 0)
+{
+    alert("Number is Even");
+}
+else
+{
+    alert("Number is Odd");
+}
+</script>
+
+</body>
+</html>
