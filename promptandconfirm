@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Preparation</title>
+</head>
+<body>
+
+<script>
+    alert("Exams are near, have you started preparing for?");
+
+    let name = prompt("Enter your name:");
+
+    let answer = confirm("Have you started preparing?");
+
+    if (answer) {
+        alert(name + ", Good! Keep preparing.");
+    } else {
+        alert(name + ", Start preparing now.");
+    }
+</script>
+
+</body>
+</html>
