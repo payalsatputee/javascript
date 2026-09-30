@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+
+<body onload="welcome()">
+
+<script>
+function welcome()
+{
+    alert("Welcome to JavaScript");
+}
+</script>
+
+</body>
+</html>
