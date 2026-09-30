@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let r = parseFloat(prompt("Enter radius:"));
+
+let area = Math.PI * r * r;
+let circumference = 2 * Math.PI * r;
+
+document.write("Area = " + area.toFixed(2) + "<br>");
+document.write("Circumference = " + circumference.toFixed(2));
+</script>
+
+</body>
+</html>
